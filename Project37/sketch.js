@@ -107,6 +107,11 @@ if(gameState!==0){
     fill(rgb(244,19,160));
     text("SCORE : " + score,10,player.y-200);
 }
+  if(gameState===2){
+    textSize(20);
+    fill("red");
+    text("GAME OVER",200,player.y+100)
+  }
 }
 
 function camera1(){
